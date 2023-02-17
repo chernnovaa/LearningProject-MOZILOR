@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  line-height: 150%;
   color: #484C63;
 }
 
@@ -207,4 +206,30 @@ ul {
 }
 .products__box-btn span {
   margin-left: 9px;
+}
+
+.creators {
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  padding: 73px 0;
+}
+.creators__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.creators__box-content {
+  max-width: 460px;
+}
+.creators__box-title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57px;
+  color: #1A2578;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.creators__box-text {
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
