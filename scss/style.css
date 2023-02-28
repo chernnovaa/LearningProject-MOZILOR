@@ -22,6 +22,7 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .container {
@@ -312,4 +313,61 @@ ul {
 .join__box-btn:hover {
   background-color: #BF0830;
   color: #fff;
+}
+
+.footer {
+  background-color: #0D123C;
+  color: #fff;
+  padding: 55px 0 40px 0;
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.footer__content {
+  max-width: 325px;
+}
+.footer__content-text {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 27px;
+}
+.footer__info {
+  display: flex;
+  gap: 105px;
+}
+.footer__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.footer__list {
+  margin: 0;
+}
+.footer__list-item {
+  padding-bottom: 20px;
+}
+.footer__social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.footer__bottom {
+  border-top: 1px solid rgba(197, 203, 226, 0.5);
+  padding-top: 30px;
+}
+.footer__bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__bottom-text {
+  margin: 0;
+  line-height: 21px;
+}
+.footer__bottom-link {
+  line-height: 21px;
+  text-decoration-line: underline;
 }/*# sourceMappingURL=style.css.map */
