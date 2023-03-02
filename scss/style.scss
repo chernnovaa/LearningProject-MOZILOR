@@ -340,6 +340,13 @@ ul {
     display: flex;
     gap: 15px;
     align-items: center;
+    &-item {
+      fill: #fff;
+      transition: all .3s;
+      &:hover {
+        fill: #BF0830;
+      }
+    }
   }
   &__bottom {
     border-top: 1px solid rgba(197, 203, 226, 0.5);
@@ -355,6 +362,12 @@ ul {
     &-link {
       line-height: 21px;
       text-decoration-line: underline;
+    }
+  }
+  &__item-link {
+    transition: all .3s;
+    &:hover {
+      color: #BF0830;
     }
   }
 }

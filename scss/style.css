@@ -355,6 +355,13 @@ ul {
   gap: 15px;
   align-items: center;
 }
+.footer__social-item {
+  fill: #fff;
+  transition: all 0.3s;
+}
+.footer__social-item:hover {
+  fill: #BF0830;
+}
 .footer__bottom {
   border-top: 1px solid rgba(197, 203, 226, 0.5);
   padding-top: 30px;
@@ -370,4 +377,10 @@ ul {
 .footer__bottom-link {
   line-height: 21px;
   text-decoration-line: underline;
+}
+.footer__item-link {
+  transition: all 0.3s;
+}
+.footer__item-link:hover {
+  color: #BF0830;
 }/*# sourceMappingURL=style.css.map */
