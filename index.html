@@ -16,17 +16,30 @@
 <body>
   <header class="header">
     <div class="container">
-      <nav class="navigation">
+      <div class="navigation">
         <a class="logo" href="#">
           <img class="logo__img" src="images/logo.svg" alt="Mozilor">
         </a>
-        <div class="navigation__box">
-          <a class="navigation__box-item" href="#">Products</a>
-          <a class="navigation__box-item" href="#">About us</a>
-          <a class="navigation__box-item" href="#">Contact</a>
+        <nav class="menu">
+          <button class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Products</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">About us</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Contact</a>
+            </li>
+          </ul>
           <button class="btn">We're hiring</button>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <div class="header__box">
         <div class="header__box-content">
           <h1 class="header__box-title">We build products to simplify work for businesses</h1>
@@ -232,7 +245,6 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
