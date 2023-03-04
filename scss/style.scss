@@ -436,6 +436,16 @@ button {
     }
   }
 }
+@media (max-width:600px) {
+  .navigation {
+    display: block;
+  }
+  .header__box-btn {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+}
 @media (max-width:460px) {
   .header__box {
     padding-top: 50px;
@@ -447,9 +457,16 @@ button {
       margin-right: 8px;
     }
     &-buttons--one,
-    &-buttons--two {
+    &-buttons--two,
+    &-btn {
       padding: 12px 22px;
       font-size: 14px;
     }
+  }
+  .menu-btn {
+    margin-top: 10px;
+  }
+  .logo__img {
+    max-width: 45%;
   }
 }
