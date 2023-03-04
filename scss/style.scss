@@ -398,6 +398,12 @@ button {
     }
   }
 }
+@media (max-width:1150px) {
+  .brands__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 @media (max-width:1016px) {
   .header__box {
     padding-top: 100px;
@@ -435,6 +441,9 @@ button {
       transform: translateX(0%);
     }
   }
+  .brands__box {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (max-width:600px) {
   .navigation {
@@ -444,6 +453,9 @@ button {
     position: absolute;
     top: 30px;
     right: 20px;
+  }
+  .brands__box {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width:460px) {
@@ -468,5 +480,17 @@ button {
   }
   .logo__img {
     max-width: 45%;
+  }
+  .brands {
+    padding: 50px 0;
+    &__box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__text {
+      padding-bottom: 40px;
+    }
   }
 }
