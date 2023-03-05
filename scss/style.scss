@@ -445,6 +445,16 @@ button {
       margin-bottom: 20px;
     }
   }
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__content {
+    text-align: center;
+    &-text {
+      margin-bottom: 30px;
+    }
+  }
 }
 @media (max-width:800px) {
   .header__box {
@@ -495,6 +505,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .footer__info {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer__bottom-content {
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
 @media (max-width:460px) {
