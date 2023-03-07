@@ -415,6 +415,7 @@ button {
   color: #BF0830;
 }
 
+/*PRODUCTS PAGE*/
 @media (max-width: 1150px) {
   .brands__box {
     display: grid;
