@@ -416,6 +416,19 @@ button {
 }
 
 /*PRODUCTS PAGE*/
+.product {
+  padding-bottom: 50px;
+}
+.product__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 110px;
+}
+.product__item-two {
+  flex-direction: row-reverse;
+}
+
 @media (max-width: 1150px) {
   .brands__box {
     display: grid;
