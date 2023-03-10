@@ -34,6 +34,22 @@ button {
   padding: 0 20px;
   max-width: 1200px;
 }
+.btn {
+  background: #BF0830;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  transition: all .3s;
+  &:hover {
+    background: #fff;
+    color: #BF0830;
+    border: 1px solid #BF0830;
+  }
+}
 
 .header {
   background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
@@ -93,6 +109,9 @@ button {
         color: #fff;
       }
     }
+    &-btn:hover {
+      background-color: #E3E7F6;
+    }
   }
 }
 .navigation {
@@ -129,22 +148,6 @@ button {
       }
     }
   }
-.btn {
-  background: #BF0830;
-  border-radius: 6px;
-  color: #fff;
-  border: none;
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 700;
-  border: 1px solid transparent;
-  transition: all .3s;
-  &:hover {
-    background: #E3E7F6;
-    color: #BF0830;
-    border: 1px solid #BF0830;
-  }
-}
 .brands {
   padding: 100px 0;
   border-bottom: 1px solid rgba(197, 203, 226, 0.5);
@@ -312,22 +315,6 @@ button {
       font-size: 16px;
       line-height: 27px;
     }
-    &-btn {
-      background-color: transparent;
-      border-radius: 6px;
-      color: #BF0830;
-      border: 1px solid #BF0830;
-      padding: 14px 32px;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 700;
-      margin-top: 16px;
-      transition: all .3s;
-      &:hover {
-        background-color: #BF0830;
-        color: #fff;
-      }
-    }
   }
 }
 .footer {
@@ -412,6 +399,25 @@ button {
     &-two {
       flex-direction: row-reverse;
     }
+    &-content--one {
+      max-width: 460px;
+    }
+    &-content--two {
+      max-width: 535px;
+    }
+    &-text {
+      margin: 40px 0;
+    }
+    &-btn {
+      background-color: #fff;
+      color: #BF0830;
+      border: 1px solid #BF0830;
+      &:hover {
+        background-color: #BF0830;
+        border: 1px solid transparent;
+        color: #fff;
+      }
+    }
   }
 }
 
@@ -435,6 +441,12 @@ button {
     grid-template-columns: 2fr 2fr;
     justify-items: center;
     gap: 20px;
+  }
+  .product__item {
+    flex-direction: column;
+    &-img {
+      margin-top: 40px;
+    }
   }
 }
 @media (max-width:1016px) {
@@ -533,6 +545,9 @@ button {
   .footer__bottom-content {
     flex-direction: column;
     align-items: flex-end;
+  }
+  .product__item-img {
+    max-width: 100%;
   }
 }
 @media (max-width:460px) {

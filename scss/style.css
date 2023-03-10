@@ -41,6 +41,23 @@ button {
   max-width: 1200px;
 }
 
+.btn {
+  background: #BF0830;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: #fff;
+  color: #BF0830;
+  border: 1px solid #BF0830;
+}
+
 .header {
   background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
   width: 100%;
@@ -101,6 +118,9 @@ button {
   background: #BF0830;
   color: #fff;
 }
+.header__box-btn:hover {
+  background-color: #E3E7F6;
+}
 
 .navigation {
   padding-top: 30px;
@@ -136,23 +156,6 @@ button {
   height: 2px;
   width: 100%;
   background-color: #BF0830;
-}
-
-.btn {
-  background: #BF0830;
-  border-radius: 6px;
-  color: #fff;
-  border: none;
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 700;
-  border: 1px solid transparent;
-  transition: all 0.3s;
-}
-.btn:hover {
-  background: #E3E7F6;
-  color: #BF0830;
-  border: 1px solid #BF0830;
 }
 
 .brands {
@@ -328,22 +331,6 @@ button {
   font-size: 16px;
   line-height: 27px;
 }
-.join__box-btn {
-  background-color: transparent;
-  border-radius: 6px;
-  color: #BF0830;
-  border: 1px solid #BF0830;
-  padding: 14px 32px;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 700;
-  margin-top: 16px;
-  transition: all 0.3s;
-}
-.join__box-btn:hover {
-  background-color: #BF0830;
-  color: #fff;
-}
 
 .footer {
   background-color: #0D123C;
@@ -428,6 +415,25 @@ button {
 .product__item-two {
   flex-direction: row-reverse;
 }
+.product__item-content--one {
+  max-width: 460px;
+}
+.product__item-content--two {
+  max-width: 535px;
+}
+.product__item-text {
+  margin: 40px 0;
+}
+.product__item-btn {
+  background-color: #fff;
+  color: #BF0830;
+  border: 1px solid #BF0830;
+}
+.product__item-btn:hover {
+  background-color: #BF0830;
+  border: 1px solid transparent;
+  color: #fff;
+}
 
 @media (max-width: 1150px) {
   .brands__box {
@@ -446,6 +452,12 @@ button {
     grid-template-columns: 2fr 2fr;
     justify-items: center;
     gap: 20px;
+  }
+  .product__item {
+    flex-direction: column;
+  }
+  .product__item-img {
+    margin-top: 40px;
   }
 }
 @media (max-width: 1016px) {
@@ -544,6 +556,9 @@ button {
   .footer__bottom-content {
     flex-direction: column;
     align-items: flex-end;
+  }
+  .product__item-img {
+    max-width: 100%;
   }
 }
 @media (max-width: 460px) {
