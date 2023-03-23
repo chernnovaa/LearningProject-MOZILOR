@@ -435,6 +435,39 @@ button {
   color: #fff;
 }
 
+.build {
+  background: linear-gradient(355.12deg, #E3E7F6 -6.53%, rgba(227, 231, 246, 0) 87.81%);
+  padding: 140px 0;
+  text-align: center;
+}
+.build__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 62px;
+  color: #1A2578;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.build__btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.build__btn-two {
+  background: transparent;
+  color: #BF0830;
+  border: 1px solid #BF0830;
+}
+.build__btn-two:hover {
+  background: #BF0830;
+  color: #fff;
+}
+.build__btn-one:hover {
+  background: transparent;
+}
+
 @media (max-width: 1150px) {
   .brands__box {
     display: grid;

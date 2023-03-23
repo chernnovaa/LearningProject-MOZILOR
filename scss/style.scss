@@ -420,7 +420,38 @@ button {
     }
   }
 }
-
+.build {
+  background: linear-gradient(355.12deg, #E3E7F6 -6.53%, rgba(227, 231, 246, 0) 87.81%);
+  padding: 140px 0;
+  text-align: center;
+  &__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 62px;
+    color: #1A2578;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  &__btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__btn-two {
+    background: transparent;
+    color: #BF0830;
+    border: 1px solid #BF0830;
+    &:hover {
+      background: #BF0830;
+      color: #fff;
+    }
+  }
+  &__btn-one:hover {
+    background: transparent;
+  }
+}
 
 
 
