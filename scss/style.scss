@@ -547,6 +547,9 @@ button {
     padding-top: 100px;
     display: flex;
     justify-content: space-evenly;
+    &__img {
+      padding-left: 50px;
+    }
   }
   &__content {
     display: flex;
@@ -564,6 +567,47 @@ button {
     &-text {
       margin: 0;
       padding-bottom: 30px;
+    }
+  }
+  &-what {
+    padding: 100px 0 120px;
+    &__box {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    &__img {
+      padding-right: 50px;
+    }
+  }
+}
+.hiring {
+  padding: 150px 0;
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  &-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    max-width: 380px;
+    &-btn {
+      background-color: transparent;
+      color: #BF0830;
+      border: 1px solid #BF0830;
+      position: relative;
+      &:hover {
+        background-color: #BF0830;
+        color: #fff;
+      }
+      &::after {
+        content: "";
+        width: 250px;
+        height: 100px;
+        background-image: url(../images/hiring-line.svg);
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 65px;
+        left: 65px;
+      }
     }
   }
 }

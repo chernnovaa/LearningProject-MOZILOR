@@ -566,6 +566,9 @@ button {
   display: flex;
   justify-content: space-evenly;
 }
+.code-we__img {
+  padding-left: 50px;
+}
 .code__content {
   display: flex;
   flex-direction: column;
@@ -583,6 +586,48 @@ button {
 .code__content-text {
   margin: 0;
   padding-bottom: 30px;
+}
+.code-what {
+  padding: 100px 0 120px;
+}
+.code-what__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.code-what__img {
+  padding-right: 50px;
+}
+
+.hiring {
+  padding: 150px 0;
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+}
+.hiring-box {
+  display: flex;
+  justify-content: space-between;
+}
+.hiring__content {
+  max-width: 380px;
+}
+.hiring__content-btn {
+  background-color: transparent;
+  color: #BF0830;
+  border: 1px solid #BF0830;
+  position: relative;
+}
+.hiring__content-btn:hover {
+  background-color: #BF0830;
+  color: #fff;
+}
+.hiring__content-btn::after {
+  content: "";
+  width: 250px;
+  height: 100px;
+  background-image: url(../images/hiring-line.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 65px;
+  left: 65px;
 }
 
 @media (max-width: 1150px) {
