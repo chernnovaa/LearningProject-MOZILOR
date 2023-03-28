@@ -612,6 +612,16 @@ button {
   }
 }
 
+// CONTACT PAGE
+.about-header__btn {
+  background-color: transparent;
+  color: #BF0830;
+  border: 1px solid #BF0830;
+  &:hover {
+    background-color: #BF0830;
+    color: #fff;
+  }
+}
 
 @media (max-width:1150px) {
   .brands__box {
