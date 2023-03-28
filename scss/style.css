@@ -693,6 +693,26 @@ button {
   .footer__content-text {
     margin-bottom: 30px;
   }
+  .code__box {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .code-we,
+  .code-what__box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .code-what__img {
+    order: 1;
+  }
+  .hiring-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hiring-box__img {
+    padding-top: 100px;
+    max-width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .header__box {
@@ -722,6 +742,19 @@ button {
   }
   .brands__box {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .card__box {
+    flex-direction: column;
+  }
+  .code__box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .code__item {
+    width: 300px;
+  }
+  .code-we__img,
+  .code-what__img {
+    max-width: 95%;
   }
 }
 @media (max-width: 600px) {
@@ -814,5 +847,42 @@ button {
   .join__box-btn {
     padding: 12px 22px;
     font-size: 14px;
+  }
+  .card {
+    padding: 50px 0;
+  }
+  .card__item {
+    width: auto;
+    height: auto;
+  }
+  .card__item-figure {
+    font-size: 46px;
+    line-height: 52px;
+  }
+  .code {
+    padding: 50px 0;
+  }
+  .code__box {
+    padding-top: 50px;
+  }
+  .code__item {
+    padding: 20px;
+    width: 220px;
+  }
+  .code__item-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .code-we {
+    padding-top: 50px;
+  }
+  .code-what {
+    padding: 50px 0;
+  }
+  .hiring {
+    padding: 50px 0;
+  }
+  .hiring__content-btn::after {
+    left: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
