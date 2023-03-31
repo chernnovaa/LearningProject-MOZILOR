@@ -779,6 +779,10 @@ button {
       max-width: 100%;
     }
   }
+  .contact__box {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (max-width:800px) {
   .header__box {
@@ -821,6 +825,18 @@ button {
   .code-we__img,
   .code-what__img {
     max-width: 95%;
+  }
+}
+@media (max-width:650px) {
+  .contact__form {
+    padding: 20px;
+    &-input {
+      width: 70%;
+    }
+    &-textarea {
+      width: 70%;
+      height: 70%;
+    }
   }
 }
 @media (max-width:600px) {
@@ -952,5 +968,8 @@ button {
   }
   .hiring__content-btn::after {
     left: 25px;
+  }
+  .contact {
+    padding: 50px 0;
   }
 }
